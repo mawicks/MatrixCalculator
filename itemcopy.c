@@ -1,3 +1,7 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
 #include "functions.h"
 #include "mem.h"
 #include "types.h"
@@ -42,9 +46,6 @@ struct item item;
 		free_array (item.data.mat.m);
 	}
 	else if (item.datatype == NAME) {
-		if (free (item.data.p) == 0) {
-			printf ("Error freeing name\n");
-			exit (1);
+		free(item.data.p);
 		}
-	}
 }

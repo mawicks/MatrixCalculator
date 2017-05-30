@@ -10,7 +10,7 @@ It's probably not very exciting today, but it might be of some interest because 
 WARNING: The "calculator" interface contains a gets() call, eprecated today but common when it was written,
 which doesn't have any bearing on the matrix factorizations themselves.
 
-The calculator interface is RPN and is modeled after an HP 48G with additional matrix functions:
+The calculator interface is RPN and is modeled after an HP 48G with additional matrix functions (which are listed in "dofunc.c"):
 
 $ 1 2 3
 $ 5 4 3

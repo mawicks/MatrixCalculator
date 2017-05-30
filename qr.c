@@ -1,4 +1,6 @@
 #include <math.h>
+#include <stdio.h>
+
 #include "constant.h"
 #include "functions.h"
 #include "mem.h"

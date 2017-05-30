@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 static long int currentflops = 0;
 static long int currentsqrts = 0;
 static long int totalflops = 0;

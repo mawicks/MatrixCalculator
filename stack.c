@@ -2,6 +2,7 @@
  * These routines manage a stack of scalars or matrices for a simple stack
  * oriented matrix/scalar calculater
  */
+#include <stdio.h>
 
 #include "mem.h"
 #include "types.h"

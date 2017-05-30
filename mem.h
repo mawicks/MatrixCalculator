@@ -1,8 +1,9 @@
 #ifndef mem_h
+#include <stdlib.h>
 
 #define mem_h
 #define NIL 0
-char *Calloc (), *calloc (), *Malloc (), *malloc (), *free();
+char *Calloc (), *Malloc ();
 char *xcalloc (), *xmalloc ();
 void clear ();
 

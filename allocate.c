@@ -1,5 +1,5 @@
 #include "mem.h"
-char *malloc (), *free();
+#include <stdlib.h>
 
 double **array (m, n)
 int m,n;

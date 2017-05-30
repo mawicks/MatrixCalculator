@@ -1,6 +1,7 @@
 #include "constant.h"
 #include "functions.h"
 #include <math.h>
+#include <stdio.h>
 
 double algo1 (q, b, a, order, inputs, norm)
 double **q, **b, **a, *norm;

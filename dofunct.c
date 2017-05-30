@@ -1,8 +1,12 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
 #include "types.h"
 #include "functions.h"
 #include "constant.h"
 #include "mem.h"
-#include <stdio.h>
+
 #define NUMFUNCTS	49
 #define MAXNAMES	100
 typedef void (*ptof) ();

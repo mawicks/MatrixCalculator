@@ -10,6 +10,3 @@
 
 #define SMALL		1.0E-36
 #define EPS		1.0E-16
-#ifndef MSDOS
-#define HUGE_VAL        HUGE
-#endif
