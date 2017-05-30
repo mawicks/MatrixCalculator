@@ -12,7 +12,7 @@ which doesn't have any bearing on the matrix factorizations themselves.
 
 The calculator interface is RPN and is modeled after an HP 48G with additional matrix functions (which are listed in "dofunc.c"):
 
-$ 1 2 3
+```$ 1 2 3
 $ 5 4 3
 $ 2 3 mat
 1:  [          1           2           3 ]
@@ -44,3 +44,4 @@ $ drop
 	[    0.90367     0.42823 ]
 
 $ quit
+```
